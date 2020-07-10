@@ -1,0 +1,129 @@
+@media all and (max-width: 1000px) {
+	.submenu {
+		width: 50%;
+		margin-bottom: 30px
+	}
+
+	.top-wrapper h1 {
+		font-size: 32px;
+	}
+
+	.heading h2 {
+		font-size: 20px;
+	}
+}
+
+.sub-main {
+	margin-top:0px;
+	padding:0 50px;
+	margin-left: 0px;
+	width:100%;
+	margin-right: 390px;
+	text-align: center;
+	height: 400px;
+	background-color: rgba(4, 11, 6, 0.74);	
+	position:absolute;
+}
+
+.submainbg {
+  margin-top:350px;
+	height:400px;
+	width:100%;
+	background-size: 210%;
+	background-position: 20% 63%;
+	background-image: url(https://i.pinimg.com/originals/f0/3c/44/f03c44777dad8e8e7f7f8d12e335173b.jpg);
+	position:sticky;
+}
+
+.footer-list a{
+		width: 40px ;
+		padding-top: 0px;
+		margin-right:10px;
+	}
+@media all and (max-width: 670px) {
+	.submenu {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	
+	.sub-main {
+	margin-top:0px;
+	padding:0 50px;
+	margin-left: 0px;
+	width:100%;
+	margin-right: 390px;
+	text-align: center;
+	height: 400px;
+	background-color: rgba(4, 11, 6, 0.74);	
+	position:absolute;
+}
+
+.submainbg {
+  margin-top:900px;
+	height:400px;
+	width:100%;
+	background-size: 210%;
+	background-position: 20% 63%;
+	background-image: url(https://i.pinimg.com/originals/f0/3c/44/f03c44777dad8e8e7f7f8d12e335173b.jpg);
+	position:sticky;
+}
+
+input{width:200px;}
+textarea{width:200px;}
+	
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:block;
+}
+
+	.submenu-icon {
+		width: 100%;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+  .footer-list a{
+		width: 40px ;
+		padding-top: 0px;
+		margin-right:10px;
+	}
+
+	.btn {
+		width: 100%; margin-right:25px;
+	}
+
+	.facebook {
+		margin-bottom: 10px;
+	}
+
+	.top-wrapper {
+		text-align: left;
+		padding-top: 50px;
+	}
+
+	.top-wrapper h1 {
+		font-size: 14px;
+		line-height: 36px;
+	}
+
+	.top-wrapper p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+ 
+ .btn-wrapper{width:80%;}
+ 
+ .top-wrapper p {            
+  font-size: 14px;            
+  line-height: 20px;   padding-left:50px;         
+   }
+  
+  .header-right {
+    display: none;
+  }
+}
