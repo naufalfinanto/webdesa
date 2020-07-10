@@ -4,13 +4,13 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
-
-body {
-  font-family: "Lucida Grande";
-}
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "Lucida Grande";
+}
+
 .sub-main {
 	padding:0px 50px 0px 50px;
 	margin-left: 80px;
@@ -29,9 +29,9 @@ body {
 }
 
 .container {
-	max-width: 1170px;
-	padding: 0 15px;
- 	margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .content-wrapper {
