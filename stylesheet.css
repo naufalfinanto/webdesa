@@ -1,24 +1,17 @@
-@media all and (max-width: 1000px) {
-	.submenu {
-		width: 50%;
-		margin-bottom: 30px
-	}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
 
-	.top-wrapper h1 {
-		font-size: 32px;
-	}
-
-	.heading h2 {
-		font-size: 20px;
-	}
+body {
+  font-family: "Lucida Grande";
 }
 
 .sub-main {
-	margin-top:0px;
-	padding:0 50px;
-	margin-left: 0px;
-	width:100%;
-	margin-right: 390px;
+	padding:0px 50px 0px 50px;
+	margin-left: 80px;
 	text-align: center;
 	height: 400px;
 	background-color: rgba(4, 11, 6, 0.74);	
@@ -26,104 +19,300 @@
 }
 
 .submainbg {
-  margin-top:350px;
 	height:400px;
-	width:100%;
 	background-size: 210%;
 	background-position: 20% 63%;
 	background-image: url(https://i.pinimg.com/originals/f0/3c/44/f03c44777dad8e8e7f7f8d12e335173b.jpg);
 	position:sticky;
 }
 
-.footer-list a{
-		width: 40px ;
-		padding-top: 0px;
-		margin-right:10px;
-	}
-@media all and (max-width: 670px) {
-	.submenu {
-		width: 100%;
-		margin-bottom: 30px;
-	}
-	
-	.sub-main {
-	margin-top:0px;
-	padding:0 50px;
-	margin-left: 0px;
-	width:100%;
-	margin-right: 390px;
-	text-align: center;
-	height: 400px;
-	background-color: rgba(4, 11, 6, 0.74);	
-	position:absolute;
+.container {
+	padding: 0 15px;
+  margin: 0 auto;
 }
 
-.submainbg {
-  margin-top:900px;
-	height:400px;
-	width:100%;
-	background-size: 210%;
-	background-position: 20% 63%;
-	background-image: url(https://i.pinimg.com/originals/f0/3c/44/f03c44777dad8e8e7f7f8d12e335173b.jpg);
-	position:sticky;
+.content-wrapper {
+  	height: 500px;
+  	text-align: center;
+  	background-color: #f7f7ff;
+	  color:black;
 }
 
-input{width:200px;}
-textarea{width:200px;}
-	
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display:block;
+.heading {
+	padding-top:60px;
+	padding-bottom:30px;
 }
 
-	.submenu-icon {
-		width: 100%;
-	}
+.content-title {
+	color:black;
+	font-size:32px;
+	letter-spacing:4px;
+	font-weight: normal;
+}
 
-	footer {
-		text-align: center;
-	}
+.submenu {
+	float:left;
+	width: 25%;
+}
 
-  .footer-list a{
-		width: 40px ;
-		padding-top: 0px;
-		margin-right:10px;
-	}
+.submenu p {
+  margin-top:20px;
+}
 
-	.btn {
-		width: 100%; margin-right:25px;
-	}
-
-	.facebook {
-		margin-bottom: 10px;
-	}
-
-	.top-wrapper {
-		text-align: left;
-		padding-top: 50px;
-	}
-
-	.top-wrapper h1 {
-		font-size: 14px;
-		line-height: 36px;
-	}
-
-	.top-wrapper p {
-		font-size: 14px;
-		line-height: 20px;
-	}
- 
- .btn-wrapper{width:80%;}
- 
- .top-wrapper p {            
-  font-size: 14px;            
-  line-height: 20px;   padding-left:50px;         
-   }
+.submenu-icon img{
+	width:130px;
+	height:150px;
+	background-color:rgba(242, 233, 217, 0.5);
+	border-radius:5px;
+	padding:15px;
+	box-shadow: 0 7px #1a7940;
+	cursor:pointer;
+	transition: all 0.3s;
+	border-bottom: 3px solid #a47d4c;
+	border-right: 3px solid #a47d4c;
+}
+.submenu-icon img:hover {
+	background-color:#d5c8a4
+}
+.submenu-icon img:active {
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+.section-title {
+  	border-bottom: 2px solid #a47d4c;
+  	font-size: 20px;
+  	padding-bottom: 15px;
+  	margin-bottom: 10px;
+  	font-weight: normal;
+  	width: 80%;
+  	letter-spacing: 5px;
+  	color:white;
+ }
   
-  .header-right {
-    display: none;
-  }
+.Kritik {
+  	padding-top: 20px;
+  	width: 100%;
+}
+
+.contact-form {
+	text-align: left;
+}
+
+.contact-form p {
+	font-size:15px;
+}
+
+.form-kr {
+	height:300px;
+	text-align: left;
+	float: left;
+  margin-top:20px;
+}
+
+.form-kr p{
+	font-size: 12px;
+	letter-spacing: 2px;
+	color:white;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+input {
+	width:300px;
+  font-size:12px;
+  border: 1px solid #a47d4c;
+  height:20px;
+  opacity: 0.7;
+}
+
+textarea {
+  width:300px;
+  font-size:12px;
+  border: 1px solid #a47d4c;
+  height:50px;
+  opacity: 0.7;
+}
+
+.contact-submit {
+  	background-color:rgba(242, 233, 217, 1);
+	border-radius:5px;
+	box-shadow: 0 1px #1a7940;
+	cursor:pointer;
+	transition: all 0.3s;
+	border-bottom: 3px solid #a47d4c;
+	border-right: 3px solid #a47d4c;
+  	color:black;
+  	font-size:12px;
+  	width: 150px;
+}
+
+.contact-submit:hover {
+	background-color:#d5c8a4
+}
+.contact-submit:active {
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+.top-container {
+	width:auto;
+	padding:25px 25px;
+	margin:15px;
+text-align:center;	
+}
+.top-container h1, h2{
+	font-size:45px;
+	letter-spacing:5px;
+	margin-bottom:10px;
+	opacity:0.9;
+	padding:5px;
+	margin-top:0px;
+	
+}
+.top-wrapper{
+	padding-top:180px;
+	color:white;
+	background-image:url(https://www.goodnewsfromindonesia.id/wp-content/uploads/images/source/akhyari/seven-traditional-house-of-waerebo.jpg);
+	background-size:cover;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:20px;
+  box-shadow:1px 2px #080808;
+}
+.btn:hover {
+  opacity:1;
+}
+.btn:active{
+	position:relative;
+	top:7px;
+	box-shadow:none;
+}
+.signup  {
+  background: linear-gradient(to bottom, #993300 0%, #ff5050 100%);
+}
+.facebook {
+   background: linear-gradient(to bottom, #0000ff 0%, #66ffff 100%);
+  margin-right: 10px;
+}
+.email {
+  background: linear-gradient(to bottom, #ff0066 0%, #9999ff 100%)
+}
+.btn-wrapper {
+  margin-top: 30px;
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+@keyframes animate {
+  0%   { opacity: 0.7; }
+  10%  { opacity: 0.7; }
+  90%  { opacity: 1; }
+}
+.header-right a{
+  
+  animation: animate 1s infinite alternate-reverse;
+}
+
+.btn:hover {
+  opacity: 1;
+border-bottom: 0 7px #ff9f43;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #172e14;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+
+.logo {
+  width: 174px;
+  margin-top: 5px;
+  margin-bottom:5px;
+  transition: all 1s;
+}
+
+.header-left {
+  float: left;
+  margin-left: -25px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  font-size:12px;
+  display: block;
+  float: left;
+  transition: all 1s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}	
+
+li {
+  list-style: none;
+}
+
+.footer-right li {
+  animation: animate 1s infinite alternate-reverse;
+}
+
+footer {
+  background-color: #172e14;
+  color: #fff;
+  height: 145px;
+width: 100%;
+}
+
+.footer-left logo {
+  width: 174px;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+
+.btn:hover {
+  opacity: 1;
+border-bottom: 0 7px #ff9f43;
+}
+
+.footer-list {
+  float: right;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+.footer-list a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  font-size:12px;
+  display: block;
+  float: left;
+  transition: all 1s;
+}
+.footer-list a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
