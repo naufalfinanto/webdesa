@@ -8,7 +8,9 @@ h1, h2, h3, h4, h5, h6, p, div {
 body {
   font-family: "Lucida Grande";
 }
-
+* {
+  box-sizing: border-box;
+}
 .sub-main {
 	padding:0px 50px 0px 50px;
 	margin-left: 80px;
