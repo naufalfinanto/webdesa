@@ -41,6 +41,14 @@
 		margin-right:10px;
 	}
 @media all and (max-width: 670px) {
+header {
+  	height: 65px;
+  	width: 100%;
+ 	background-color: #172e14;
+ 	position :fixed;
+ 	top: 0;
+	z-index: 10;
+	}
 	.submenu {
 		width: 100%;
 		margin-bottom: 30px;
